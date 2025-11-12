@@ -1,0 +1,117 @@
+h1{
+    color: chocolate;
+    font-size: 36px;
+}
+
+h2{
+    color: black;
+    font-size: 28px;
+    border-left: 8px solid grey;
+    letter-spacing: 2px;
+
+}
+
+p{
+   color: black;
+   font-size: 18px;
+   font-family: 微軟正黑體; 
+   line-height: 28px;
+   text-align: justify;
+   text-indent: 36px;
+   text-decoration: none;
+   letter-spacing: normal;
+/* 可使用px或直接打1.5，表示1.5倍行距 */
+/* 文字預設是靠左對齊，也可justify左右對齊 */
+/* text-indent是段落空格，36px表示空兩格 */
+/* text-decoration可以使用底線、刪除線等 */
+/* letter-spacing則是字元間距離 */
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    font-family: Verdana;
+}
+
+li{
+    color: black;
+    font-size: 16px;
+    font-family: 微軟正黑體;
+    line-height: 26px;
+/* 可使用px或直接打1.5，表示1.5倍行距 */
+}
+
+img{
+    border: 3px solid burlywood;
+}
+
+h1:hover{
+    color: red;
+    font-size: 40px;
+}
+
+a:hover{
+    color: sienna;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+a:active{
+    color: green;
+} 
+
+.style1{
+    color: purple;
+}
+
+.style2{
+    color: red;
+}  
+
+/* 選擇器{
+       屬性1:設定值1;
+       屬性2:設定值2;
+       }
+常見處理錯誤:
+    1. 檔案名稱寫錯
+    2. 連結的路徑錯誤(檔案位置改變)
+    3. 屬性名稱(ex.color,font-size)寫錯
+    4. 忘記加分號
+    5. 少了{ 或 }
+上述可用chrome檢查工具去檢查哪裡出錯
+*/
+
+/* 
+選擇器類型：
+HTML標籤選擇器，例如:
+    1. h1{}
+    2. p{}
+    3. img{}
+    4. a{}
+可用p{}去做段落的全域設定，
+使用類別選擇器對部分區域自訂效果。
+這意味著類別選擇器的優先權(權重)高於標籤選擇器。
+
+擬態選擇器，例如:
+    1. a:hover{}
+    2. a:visited{}
+    3. a:active{}
+    4. a:link{}
+通常會用在a標籤上，比較少用在h1或p標籤上。
+老師建議先了解a:hover{}的用法就好，這個最常見。
+
+類別選擇器，用來客製化樣式，例如:
+    1. .classname{}
+    2. .menu{}
+    3. .header{}
+    4. .footer{}
+*/
+
+/* 
+文字段落的設定:
+1. font-family: 字型名稱;
+2. font-size: 字型大小;
+3. color: 文字顏色;
+4. text-align: 文字對齊方式(left, center, right, justify);
+5. text-decoration: 文字裝飾(underline, overline, line-through, none);
+*/
